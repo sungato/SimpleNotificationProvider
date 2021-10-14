@@ -14,18 +14,3 @@ class MyCounter with ChangeNotifier {
     notifyListeners();
   }
 }
-
-/*
-Stream<int> counterStream() async* {
-  int i = 0;
-  void increment() {
-    i = i++;
-  }
-
-  yield i;
-}
-
-Future<int> randomCounter() async {
-  int i = Random().nextInt(1000);
-  return i;
-}*/
